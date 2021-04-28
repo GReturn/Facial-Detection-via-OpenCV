@@ -1,2 +1,2 @@
-# Facial-Recognition-via-OpenCV
+# Facial-Detection-via-OpenCV
 A simple Python code that recognizes faces of humans, and rarely, faces of ghosts.
