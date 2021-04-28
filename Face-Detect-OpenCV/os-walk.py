@@ -27,7 +27,7 @@ for root, dirs, files in os.walk(image_dir):
             label = os.path.basename(os.path.dirname(
                 path)).replace(" ", "-").lower()
 #                ^
-# (os.path.dirname(path)) can be changed to root
+# (os.path.dirname(path)) can be changed to (root)
 
             if not label in label_ids:
                 label_ids[label] = current_id
