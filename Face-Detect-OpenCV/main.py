@@ -11,6 +11,11 @@ face_cascade = cv2.CascadeClassifier(
 eye_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_eye.xml')
 
+font = cv2.FONT_HERSHEY_DUPLEX
+name = '\"human\"'
+color = (127, 127, 255)
+stroke = 2
+
 if not video.isOpened():
     video.open(device)
 
@@ -25,6 +30,8 @@ while video.isOpened():
         roi_gray = gray[y:y+h, x:x+w]
         roi_color = frame[y:y+h, x:x+w]
         eyes = eye_cascade.detectMultiScale(roi_gray)
+        cv2.putText(frame, name, (x, y), font, 1, color, stroke, cv2.LINE_AA)
+
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0, 255, 0), 2)
 
