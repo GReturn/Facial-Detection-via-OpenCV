@@ -10,7 +10,7 @@ You can! The [coco-detect.py][coco-detect] file simply does that.
 
 [coco-detect]: https://github.com/GReturn/Facial-Detection-via-OpenCV/blob/main/Face-Detect-OpenCV/coco-detect.py
 
-I think this will be my last commit to this repo. I'm no longer touching data science until I learn the maths about it.
+> I think this will be my last commit to this repo. I'm no longer touching data science until I learn the maths about it.
 
 <!--
 Dear future me,
