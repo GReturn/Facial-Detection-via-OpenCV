@@ -6,6 +6,6 @@ This is a project by Lin as a way to challenge himself to create a facial detect
 
 ### Want to detect not only human faces, but also inanimate objects? 
 ~~Sorry... I still need to work on that. I'm only using Haar Cascade. Still need to do more research.~~
-You can! The [coco-detect.py][coco-detect.py] file simply does that.
+You can! The [coco detect][coco-detect.py] file simply does that.
 
 [coco-detect.py]: ]https://github.com/GReturn/Facial-Detection-via-OpenCV/blob/main/Face-Detect-OpenCV/coco-detect.py
