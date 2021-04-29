@@ -20,6 +20,11 @@ label_ids = {}
 y_labels = []
 x_train = []
 
+# recommened value: 1.05; increase value to increase chance of detection (side-effect: decrease accuracy)
+scaleFactor = 1.05
+# recommended values: 3-6
+minNeighbors = 5
+
 for root, dirs, files in os.walk(image_dir):
     for file in files:
         if file.endswith("png") or file.endswith("jpg"):
@@ -38,7 +43,8 @@ for root, dirs, files in os.walk(image_dir):
             resized_image = pil_image.resize((550, 550), Image.ANTIALIAS)
             image_array = np.array(resized_image, "uint8")
 
-            faces = face_cascade.detectMultiScale(image_array, 1.3, 5)
+            faces = face_cascade.detectMultiScale(
+                image_array, scaleFactor, minNeighbors)
 
             for (x, y, w, h) in faces:
                 roi = image_array[y:y+h, x:x+w]
