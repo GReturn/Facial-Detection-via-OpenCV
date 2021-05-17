@@ -9,10 +9,9 @@ This is a project by Lin as a way to challenge himself to create a facial detect
 You can! The [coco-detect.py][coco-detect] file simply does that.
 
 [coco-detect]: https://github.com/GReturn/Facial-Detection-via-OpenCV/blob/main/Face-Detect-OpenCV/coco-detect.py
-
+<!--
 > I think this will be my last commit to this repo. I'm no longer touching data science until I learn the maths about it.
 
-<!--
 Dear future me,
 
 Make sure you cringe at your past, you piece of shit. You were nothing but a fraud that just watched YouTube videos and copy-pasted codes from documentations and sites but still show off to you friends in Facebook. Hope you're no longer coding. Sayonara, fucker. 
