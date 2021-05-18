@@ -6,7 +6,7 @@ This is a project by Lin as a way to challenge himself to create a facial detect
 
 ### HOW TO
 To use the code for your personal project, follow these easy steps (read everything first before doing so):
-1. Crop and copy the images of the faces of people you want the computer to identify to the `resx` folder. Using different folders, separate the images to their corresponding names (use their real name, or not; depends if you want to make a fool of somebody by labelling them something else). The name of the folders will be used as labels.
+1. Crop and copy the images of the faces of people you want the computer to identify to the `resx` folder. Using different folders, separate the images to their corresponding folder names (use their real name, or not; depends if you want to make a fool of somebody by labelling them something else). The name of the folders will be used as labels.
 2. Run `os-walk.py`. This will create the `trainer.yml` and `labels.pickle` files. These files contain the data necessary for person identification for `main.py`.
 3. Run `main.py` and enjoy!
 4. `coco-detect.py` is for object detection. It utilizes the files `frozen_inference_graph.pb` and `ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt`, so it doesn't require steps #1-#3. You can simply run this as is!
