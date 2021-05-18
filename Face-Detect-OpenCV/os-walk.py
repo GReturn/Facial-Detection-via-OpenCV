@@ -1,7 +1,5 @@
 # NOTE for beginners:
-# This file configures the directory of the images to connect to main.py.
-# Basically, this serves as a connection for resx (folder) and main.py
-
+# This file configures the directory of the images to connect to main.py for face identification.
 import os
 from PIL import Image
 import numpy as np
