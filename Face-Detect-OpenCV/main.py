@@ -15,7 +15,7 @@ color_pink = (127, 127, 255)
 color_yellow = (0, 255, 255)
 color_green = (0, 255, 0)
 stroke = 2
-# recommened value: 1.05; increase value to increase chance of detection (side-effect: decrease accuracy)
+# recommended value: 1.05; increase value to increase chance of detection (side-effect: decrease accuracy)
 scaleFactor = 1.25
 # recommended values: 3-6
 minNeighbors = 5
